@@ -1,0 +1,28 @@
+html {
+  background: url("../img/bg2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+}
+
+body {background-color: transparent !important; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+  color: white;
+}
+
+footer, a {color:white !important;}

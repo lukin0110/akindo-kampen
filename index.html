@@ -1,14 +1,82 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="nl">
   <head>
-    <title>Akindo Inschrijven</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://lukin.be/static/img/favicon.ico">
+
+    <title>Inschrijven zomerkampen 2018 - Akindo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/akindo.css" rel="stylesheet">
   </head>
   <body>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><!-- only put if you don't have jQuery already -->
-    <script>jQuery.getScript("https://kampadmin-v2.herokuapp.com/embed/ka-embedv4.js?q=" + new Date().getTime());</script>
-    <div id="kampadmin-booking" style="width: 100%" data-theme-url="/orgs/1379065/activities/grouped"><!-- change data-theme-url -->
-      <img src="https://kampadmin-v2.herokuapp.com/embed/loading.gif" />
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">Akindo Inschrijvingen</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://akindo.be" class="p-2">Gaan terug naar akindo.be</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="pricing-header px-3 py-3 pt-lg-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 pt-lg-5">Zomerkampen 2018</h1>
+      <p class="lead">Vanaf 12 maart om 9u kunnen verwijzende instanties hun
+          kinderen digitaal inschrijven! Wees er als de kippen bij, want de kampen zitten snel 'Eivol'!  Een email
+          met inschrijving in bijlage wordt vanaf dit jaar niet meer aanvaard.</p>
+
+        <p class="lead">Omwille van subsidie voorwaarden (Vlaamse Overheid), zijn de Akindo kampen bestemd voor alle Vlaamse kinderen
+            uit maatschappelijk kwetsbare milieus en worden er per kamp een aantal plaatsjes voorzien voor kinderen uit
+            minstens 4 verschillende provincies. Momenteel is er al een wachtlijst voor kinderen met een Limburgs
+            domicilieadres voor kampperiode 3, 4 en 5 (deze zijn reeds ingevuld door verwijzers die op de infodag van
+            8 maart aanwezig waren).</p>
     </div>
+
+    <div class="container pb-5">
+        <div class="row justify-content-center">
+            <div class="col-8 pt-4 rounded" style="background-color: white;">
+                <div id="kampadmin-booking" data-theme-url="/orgs/1379065/activities/grouped"><!-- change data-theme-url -->
+                  <img src="https://kampadmin-v2.herokuapp.com/embed/loading.gif" />
+                </div>
+            </div>
+        </div>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            Akindo
+            <small class="d-block mb-3">&copy; 2017-2018</small>
+          </div>
+          <div class="col-4 col-md">
+            <h5>Adres</h5>
+              <p>Werkplaatsen 65, <br>3920 Lommel</p>
+          </div>
+          <div class="col-4 col-md">
+            <h5>Contact</h5>
+              <p>Tel: 011/54 48 87<br>
+                  Fax: 011/54 75 98<br>
+                  <a href="mailto:info@akindo.be">info@akindo.be</a>
+              </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>jQuery.getScript("https://kampadmin-v2.herokuapp.com/embed/ka-embedv4.js?q=" + new Date().getTime());</script>
   </body>
 </html>
